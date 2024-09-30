@@ -8,11 +8,10 @@ public:
     node *next;
 
 public:
-    node(int);
-};
+    node(int);}
 node::node(int data)
 {
-    this->data = data;
+    this->data= data;
     this->next = 0;
 }
 // class node created successfully
