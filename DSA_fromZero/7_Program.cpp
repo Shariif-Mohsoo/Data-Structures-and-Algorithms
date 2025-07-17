@@ -50,6 +50,89 @@ int main()
             cout << endl;
         }
 
+    4-)
+        for (int row = n; row > 0; row--)
+    {
+        // Print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+        // Print spc
+        for (int spc = 1; spc <= (2 * n - 2 * row); spc++)
+            cout << " ";
+        // Print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+
+        cout << endl;
+    }
+
+    for (int row = 1; row <= n; row++)
+    {
+        // Print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+        // Print spc
+        for (int spc = 1; spc <= (2 * n - 2 * row); spc++)
+            cout << " ";
+        // Print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+
+        cout << endl;
+    }
+    cout<<endl;
+
+    5-)
+     for (int row = 1; row <= n; row++)
+    {
+        // print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+        // print spc
+        for (int spc = 1; spc <= (2 * n - 2 * row); spc++)
+            cout << " ";
+        // print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+        cout << endl;
+    }
+
+    for (int row = (n - 1); row > 0; row--)
+    {
+        // print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+        // print spc
+        for (int spc = 1; spc <= (2 * n - 2 * row); spc++)
+            cout << " ";
+        // print *
+        for (int col = 1; col <= row; col++)
+            cout << "*";
+        cout << endl;
+    }
+
+    6-)
+        for (int row = 1; row <= n; row++)
+    {
+        // print space
+        for (int spc = 1; spc <= (n - row); spc++)
+            cout << " ";
+        // print *
+        for (int col = 1; col <= row; col++)
+            cout << "* ";
+        cout << endl;
+    }
+
+    for (int row = n; row > 0; row--)
+    {
+        // print space
+        for (int spc = 1; spc <= (n - row); spc++)
+            cout << " ";
+        // print *
+        for (int col = 1; col <= row; col++)
+            cout << "* ";
+        cout << endl;
+    }
 */
 
     cout << "Enter number (count of rows): ";
